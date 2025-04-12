@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(40, 34, 34);
+   
+}
+
+*{
+align-items: center;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 255, 42);
+}
+.container{
+    font-family: sans-serif;
+    border: 2px solid #000000;
+    width: 24%;
+    text-align: center;
+    margin: auto;
+    border-radius: 12px;
+    background-color: rgb(202, 83, 202);
+    padding-bottom: 10px;
+
+}
+.li{
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.input{
+    background-color: rgb(25, 24, 24);
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+.submit{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 18px;
+    transition: 0.9s ease;
+    text-align: center;
+}
+.submit:hover{
+    background-color: orange;
+    color: black;
+    border: 1px solod black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.password, .username {
+    width: 50%
+    }
