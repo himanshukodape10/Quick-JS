@@ -1,8 +1,29 @@
 body{
-    background-color: rgb(40, 34, 34);
    
+  
+
+}
+  
+
+.bg-img{
+    background-image: url(./bmw-m-motorsport-overview-stage-01-16x9.avif);
+    height: 100%;
+    width: 100%;
+    
+     
+    
+    
+  
+
+  
+
+  
 }
 
+.main-container{
+
+  
+}
 *{
 align-items: center;
 
@@ -15,13 +36,17 @@ h1{
 .container{
     font-family: sans-serif;
     border: 2px solid #000000;
-    width: 24%;
+    width: 400px;
     text-align: center;
     margin: auto;
     border-radius: 12px;
     background-color: rgb(202, 83, 202);
     padding-bottom: 10px;
-
+ 
+    margin-top: 300px;
+  
+display: flex;
+flex-direction: column;
 }
 .li{
     list-style-type: none;
@@ -46,6 +71,7 @@ h1{
     font-size: 18px;
     transition: 0.9s ease;
     text-align: center;
+    cursor: pointer;
 }
 .submit:hover{
     background-color: orange;
