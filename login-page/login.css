@@ -10,14 +10,7 @@ body{
     height: 100%;
     width: 100%;
     
-     
-    
-    
-  
 
-  
-
-  
 }
 
 .main-container{
@@ -36,7 +29,8 @@ h1{
 .container{
     font-family: sans-serif;
     border: 2px solid #000000;
-    width: 400px;
+    width: 500px;
+    height: 400px;
     text-align: center;
     margin: auto;
     border-radius: 12px;
@@ -51,6 +45,9 @@ flex-direction: column;
 .li{
     list-style-type: none;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
     
 }
 
@@ -60,6 +57,7 @@ flex-direction: column;
     border-radius: 2px;
     text-align: center;
     color: white;
+    
 }
 
 .submit{
@@ -80,6 +78,9 @@ flex-direction: column;
     font-family: sans-serif;
     font-size: 20px;
 }
-.password, .username {
-    width: 50%
+.password,.username {
+   height: 40px;
+   width: 300px;
+   margin-top: 20px;
+    
     }
